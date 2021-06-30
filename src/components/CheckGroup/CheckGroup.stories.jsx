@@ -12,3 +12,16 @@ export const DefaultCheckGroup = Template.bind({});
 DefaultCheckGroup.args = {
   label: "check me",
 };
+
+export const SecondaryCheckGroup = Template.bind({});
+SecondaryCheckGroup.args = {
+    ...DefaultCheckGroup.args,
+    color:'secondary'
+};
+
+
+export const BlankColorCheckGroup = Template.bind({});
+BlankColorCheckGroup.args = {
+    ...DefaultCheckGroup.args,
+    color: 'default'
+}

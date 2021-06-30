@@ -1,7 +1,8 @@
 import React from "react";
 import PropTypes from "prop-types";
 import CheckGroup from "../CheckGroup/CheckGroup";
-import FormControl, { FormLabel } from "@material-ui/core";
+import FormControl from "@material-ui/core/FormControl";
+import FormLabel from "@material-ui/core/FormLabel";
 import FormGroup from "@material-ui/core/FormGroup";
 import FormHelperText from "@material-ui/core/FormHelperText";
 import { makeStyles } from "@material-ui/core/styles";
@@ -16,8 +17,14 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 /** The list component that is composed with CheckGroup component */
-export default function CheckGroupList({ legend, items, helperText }) {
+export default function CheckGroupList({ legend, items, helperText="optional" }) {
   const classes = useStyles();
+
+  if(items.length === 0){
+      return (
+          <div>Loading</div>
+      )
+  }
 
   return (
     <div className={classes.root}>
@@ -35,15 +42,10 @@ export default function CheckGroupList({ legend, items, helperText }) {
 }
 
 CheckGroupList.propTypes = {
+  /** The legend text on top of the checkbox list */
   legend: PropTypes.string,
+  /** Items that are being rendered */
   items: PropTypes.array,
-};
-
-CheckGroupList.defaultProps = {
-  legend: "Select from the following",
-  items: [
-    { id: 1, text: "You love React" },
-    { id: 2, text: "You love Python" },
-    { id: 3, text: "You love C++" },
-  ],
+  /** Hint text(Optional) */
+  helperText: PropTypes.string,
 };
