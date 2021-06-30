@@ -32,7 +32,7 @@ export default function CheckGroupList({ legend, items, helperText="optional" })
         <FormLabel component="legend">{legend}</FormLabel>
         <FormGroup>
           {items.map((item) => {
-            return <CheckGroup label={item.text} id={item.id} />;
+            return <CheckGroup label={item.text} id={item.id.toString()} />;
           })}
         </FormGroup>
         {helperText ? <FormHelperText>{helperText}</FormHelperText> : <></>}
