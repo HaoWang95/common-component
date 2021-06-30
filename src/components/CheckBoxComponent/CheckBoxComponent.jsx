@@ -32,19 +32,39 @@ export default function CheckBoxComponent({
 
 /** CheckBox props composition */
 CheckBoxComponent.propTypes = {
-  /** Select the main color of the checkbox */
+  /** 
+   * Select the main color of the checkbox 
+   **/
   color: PropTypes.oneOf(["primary", "default", "secondary"]),
-  /** Set whether the checkbox is clicked */
+  /** 
+   * Set whether the checkbox is clicked 
+   */
   checked: PropTypes.bool,
-  /** The size of the checkbox */
+  /** 
+   * The size of the checkbox
+   **/
   size: PropTypes.oneOf(["small", "medium"]),
-  /** Set whether the checkbox is disabled */
+  /** 
+   * Set whether the checkbox is disabled 
+   */
   disabled: PropTypes.bool,
 };
 
 CheckBoxComponent.defaultProps = {
+    /**
+     * Set the default color to primary, for full details, check material ui checkbox documentation
+     */
   color: "primary",
+  /**
+   * Set the init state to unchecked
+   */
   checked: false,
+  /**
+   * Set the init size to small
+   */
   size: "small",
+  /**
+   * Set the init disabled status to false
+   */
   disabled: false,
 };
