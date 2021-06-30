@@ -17,13 +17,15 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 /** The list component that is composed with CheckGroup component */
-export default function CheckGroupList({ legend, items, helperText="optional" }) {
+export default function CheckGroupList({
+  legend,
+  items,
+  helperText = "optional",
+}) {
   const classes = useStyles();
 
-  if(items.length === 0){
-      return (
-          <div>Loading</div>
-      )
+  if (items.length === 0) {
+    return <div>Loading</div>;
   }
 
   return (

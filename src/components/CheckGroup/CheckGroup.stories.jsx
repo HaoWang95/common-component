@@ -15,13 +15,12 @@ DefaultCheckGroup.args = {
 
 export const SecondaryCheckGroup = Template.bind({});
 SecondaryCheckGroup.args = {
-    ...DefaultCheckGroup.args,
-    color:'secondary'
+  ...DefaultCheckGroup.args,
+  color: "secondary",
 };
-
 
 export const BlankColorCheckGroup = Template.bind({});
 BlankColorCheckGroup.args = {
-    ...DefaultCheckGroup.args,
-    color: 'default'
-}
+  ...DefaultCheckGroup.args,
+  color: "default",
+};
