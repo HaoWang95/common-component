@@ -1,6 +1,7 @@
 import React, { useMemo, useState } from "react";
 import { Checkbox } from "@material-ui/core";
 import PropTypes from "prop-types";
+import { render } from "@testing-library/react";
 
 /**
  * Primary checkbox UI component for user interaction
@@ -19,7 +20,15 @@ export default function CheckBoxComponent({
     console.log('from check component')
     setIsChecked(!isChecked)
   }
-  
+
+  const renderLabel = (label) => {
+    if(isChecked){
+      return (label ? <strike>{label}</strike> : <strike>This is a check box</strike>)
+    }else{
+      return (label ? {label} : 'This is a check box')
+    }
+  }
+
 
   return (
     <>
@@ -31,7 +40,7 @@ export default function CheckBoxComponent({
         disabled={disabled}
         {...props}
       />
-      {label ? label : "This is a checkbox"}
+      {renderLabel(label)}
     </>
   );
 }
