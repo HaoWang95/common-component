@@ -10,22 +10,28 @@ export default function CheckBoxComponent({
   checked,
   size,
   disabled,
+  label,
   ...props
 }) {
-  const [isChecked, setChecked] = useState(checked);
-  const handleOnCheck = () => {
-    setChecked((prevChecked) => !prevChecked);
-  };
+
+  const [isChecked, setIsChecked] = useState(checked);
+  const handleCheck = () => {
+    console.log('from check component')
+    setIsChecked(!isChecked)
+  }
+  
+
   return (
     <>
       <Checkbox
         color={color}
         checked={isChecked}
-        onChange={handleOnCheck}
+        onChange={handleCheck}
         size={size}
         disabled={disabled}
         {...props}
       />
+      {label ? label : "This is a checkbox"}
     </>
   );
 }

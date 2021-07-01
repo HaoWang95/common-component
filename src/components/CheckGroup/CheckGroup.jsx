@@ -1,14 +1,25 @@
-import React from "react";
+import React, { useState } from "react";
 import { FormControlLabel } from "@material-ui/core";
 import CheckBoxComponent from "../CheckBoxComponent/CheckBoxComponent";
 import PropTypes from "prop-types";
 
 /** A basic check item that combines check box and label text */
 export default function CheckGroup({ label, color }) {
+  const [checked, setChecked] = useState(false);
+  const handleChange = (event) => {
+    console.log('handleChange from CheckGroup');
+    setChecked(!checked);
+    console.log(checked)
+  }
   return (
     <FormControlLabel
-      control={<CheckBoxComponent color={color !== "" ? color : "primary"} />}
-      label={label}
+      control={
+        <CheckBoxComponent
+          checked={checked}
+          color={color !== "" ? color : "primary"}
+          label={label}
+        />
+      }
     />
   );
 }
@@ -22,5 +33,5 @@ CheckGroup.propTypes = {
 
 CheckGroup.defaultProps = {
   label: "check default",
-  color: "",
+  color: "primary",
 };
