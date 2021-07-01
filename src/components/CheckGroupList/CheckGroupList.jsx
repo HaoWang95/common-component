@@ -34,7 +34,7 @@ export default function CheckGroupList({
         <FormLabel component="legend">{legend}</FormLabel>
         <FormGroup>
           {items.map((item) => {
-            return <CheckGroup label={item.text} id={item.id.toString()} />;
+            return <CheckGroup label={item.text} key={item.id.toString()} />;
           })}
         </FormGroup>
         {helperText ? <FormHelperText>{helperText}</FormHelperText> : <></>}
