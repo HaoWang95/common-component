@@ -11,7 +11,7 @@ export default function CheckBoxComponent({
   checked,
   size,
   disabled,
-  label,
+  label='this is a checkbox',
   ...props
 }) {
 
@@ -21,7 +21,7 @@ export default function CheckBoxComponent({
     setIsChecked(!isChecked)
   }
 
-  const renderLabel = (label) => {
+  function renderLabel({label}){
     if(isChecked){
       return (label ? <strike>{label}</strike> : <strike>This is a check box</strike>)
     }else{
