@@ -1,4 +1,4 @@
-import React, { useMemo, useState } from "react";
+import React, { useState } from "react";
 import { Checkbox } from "@material-ui/core";
 import PropTypes from "prop-types";
 

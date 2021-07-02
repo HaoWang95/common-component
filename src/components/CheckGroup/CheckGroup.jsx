@@ -9,7 +9,6 @@ export default function CheckGroup({ label, color }) {
   const handleChange = (event) => {
     console.log('handleChange from CheckGroup');
     setChecked(!checked);
-    console.log(checked)
   }
   return (
     <FormControlLabel
