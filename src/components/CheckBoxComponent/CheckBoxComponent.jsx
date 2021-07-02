@@ -1,7 +1,6 @@
 import React, { useMemo, useState } from "react";
 import { Checkbox } from "@material-ui/core";
 import PropTypes from "prop-types";
-import { render } from "@testing-library/react";
 
 /**
  * Primary checkbox UI component for user interaction

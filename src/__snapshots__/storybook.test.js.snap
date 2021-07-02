@@ -1,87 +1,97 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Storyshots Basic/CheckBox Default Blue 1`] = `
-<span
-  aria-disabled={false}
-  className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1 MuiCheckbox-root MuiCheckbox-colorPrimary PrivateSwitchBase-checked-2 Mui-checked MuiIconButton-colorPrimary"
-  onBlur={[Function]}
-  onDragLeave={[Function]}
-  onFocus={[Function]}
-  onKeyDown={[Function]}
-  onKeyUp={[Function]}
-  onMouseDown={[Function]}
-  onMouseLeave={[Function]}
-  onMouseUp={[Function]}
-  onTouchEnd={[Function]}
-  onTouchMove={[Function]}
-  onTouchStart={[Function]}
-  tabIndex={null}
->
+Array [
   <span
-    className="MuiIconButton-label"
+    aria-disabled={false}
+    className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1 MuiCheckbox-root MuiCheckbox-colorPrimary PrivateSwitchBase-checked-2 Mui-checked MuiIconButton-colorPrimary"
+    onBlur={[Function]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex={null}
   >
-    <input
-      checked={true}
-      className="PrivateSwitchBase-input-4"
-      data-indeterminate={false}
-      disabled={false}
-      onChange={[Function]}
-      type="checkbox"
-    />
-    <svg
-      aria-hidden={true}
-      className="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall"
-      focusable="false"
-      viewBox="0 0 24 24"
+    <span
+      className="MuiIconButton-label"
     >
-      <path
-        d="M19 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.11 0 2-.9 2-2V5c0-1.1-.89-2-2-2zm-9 14l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
+      <input
+        checked={true}
+        className="PrivateSwitchBase-input-4"
+        data-indeterminate={false}
+        disabled={false}
+        onChange={[Function]}
+        type="checkbox"
       />
-    </svg>
-  </span>
-</span>
+      <svg
+        aria-hidden={true}
+        className="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall"
+        focusable="false"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M19 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.11 0 2-.9 2-2V5c0-1.1-.89-2-2-2zm-9 14l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
+        />
+      </svg>
+    </span>
+  </span>,
+  <strike>
+    This is a check box
+  </strike>,
+]
 `;
 
 exports[`Storyshots Basic/CheckBox Secondary Red 1`] = `
-<span
-  aria-disabled={false}
-  className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-5 MuiCheckbox-root MuiCheckbox-colorSecondary PrivateSwitchBase-checked-6 Mui-checked MuiIconButton-colorSecondary"
-  onBlur={[Function]}
-  onDragLeave={[Function]}
-  onFocus={[Function]}
-  onKeyDown={[Function]}
-  onKeyUp={[Function]}
-  onMouseDown={[Function]}
-  onMouseLeave={[Function]}
-  onMouseUp={[Function]}
-  onTouchEnd={[Function]}
-  onTouchMove={[Function]}
-  onTouchStart={[Function]}
-  tabIndex={null}
->
+Array [
   <span
-    className="MuiIconButton-label"
+    aria-disabled={false}
+    className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-5 MuiCheckbox-root MuiCheckbox-colorSecondary PrivateSwitchBase-checked-6 Mui-checked MuiIconButton-colorSecondary"
+    onBlur={[Function]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex={null}
   >
-    <input
-      checked={true}
-      className="PrivateSwitchBase-input-8"
-      data-indeterminate={false}
-      disabled={false}
-      onChange={[Function]}
-      type="checkbox"
-    />
-    <svg
-      aria-hidden={true}
-      className="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall"
-      focusable="false"
-      viewBox="0 0 24 24"
+    <span
+      className="MuiIconButton-label"
     >
-      <path
-        d="M19 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.11 0 2-.9 2-2V5c0-1.1-.89-2-2-2zm-9 14l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
+      <input
+        checked={true}
+        className="PrivateSwitchBase-input-8"
+        data-indeterminate={false}
+        disabled={false}
+        onChange={[Function]}
+        type="checkbox"
       />
-    </svg>
-  </span>
-</span>
+      <svg
+        aria-hidden={true}
+        className="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall"
+        focusable="false"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M19 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.11 0 2-.9 2-2V5c0-1.1-.89-2-2-2zm-9 14l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
+        />
+      </svg>
+    </span>
+  </span>,
+  <strike>
+    This is a check box
+  </strike>,
+]
 `;
 
 exports[`Storyshots Basic/CheckGroup Blank Color Check Group 1`] = `
@@ -127,11 +137,10 @@ exports[`Storyshots Basic/CheckGroup Blank Color Check Group 1`] = `
       </svg>
     </span>
   </span>
+  This is a check box
   <span
     className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
-  >
-    check me
-  </span>
+  />
 </label>
 `;
 
@@ -178,11 +187,10 @@ exports[`Storyshots Basic/CheckGroup Default Check Group 1`] = `
       </svg>
     </span>
   </span>
+  This is a check box
   <span
     className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
-  >
-    check me
-  </span>
+  />
 </label>
 `;
 
@@ -229,11 +237,10 @@ exports[`Storyshots Basic/CheckGroup Secondary Check Group 1`] = `
       </svg>
     </span>
   </span>
+  This is a check box
   <span
     className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
-  >
-    check me
-  </span>
+  />
 </label>
 `;
 
@@ -294,11 +301,10 @@ exports[`Storyshots Basic/CheckGroupList Check List Helper 1`] = `
             </svg>
           </span>
         </span>
+        This is a check box
         <span
           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
-        >
-          Find the granularity of components
-        </span>
+        />
       </label>
       <label
         className="MuiFormControlLabel-root"
@@ -342,11 +348,10 @@ exports[`Storyshots Basic/CheckGroupList Check List Helper 1`] = `
             </svg>
           </span>
         </span>
+        This is a check box
         <span
           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
-        >
-          Decouple the complexity
-        </span>
+        />
       </label>
       <label
         className="MuiFormControlLabel-root"
@@ -390,11 +395,10 @@ exports[`Storyshots Basic/CheckGroupList Check List Helper 1`] = `
             </svg>
           </span>
         </span>
+        This is a check box
         <span
           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
-        >
-          From simple components to complex components
-        </span>
+        />
       </label>
       <label
         className="MuiFormControlLabel-root"
@@ -438,11 +442,10 @@ exports[`Storyshots Basic/CheckGroupList Check List Helper 1`] = `
             </svg>
           </span>
         </span>
+        This is a check box
         <span
           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
-        >
-          From complex components to pages
-        </span>
+        />
       </label>
       <label
         className="MuiFormControlLabel-root"
@@ -486,11 +489,10 @@ exports[`Storyshots Basic/CheckGroupList Check List Helper 1`] = `
             </svg>
           </span>
         </span>
+        This is a check box
         <span
           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
-        >
-          From pages to apps
-        </span>
+        />
       </label>
     </div>
     <p
@@ -559,11 +561,10 @@ exports[`Storyshots Basic/CheckGroupList Default 1`] = `
             </svg>
           </span>
         </span>
+        This is a check box
         <span
           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
-        >
-          Find the granularity of components
-        </span>
+        />
       </label>
       <label
         className="MuiFormControlLabel-root"
@@ -607,11 +608,10 @@ exports[`Storyshots Basic/CheckGroupList Default 1`] = `
             </svg>
           </span>
         </span>
+        This is a check box
         <span
           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
-        >
-          Decouple the complexity
-        </span>
+        />
       </label>
       <label
         className="MuiFormControlLabel-root"
@@ -655,11 +655,10 @@ exports[`Storyshots Basic/CheckGroupList Default 1`] = `
             </svg>
           </span>
         </span>
+        This is a check box
         <span
           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
-        >
-          From simple components to complex components
-        </span>
+        />
       </label>
       <label
         className="MuiFormControlLabel-root"
@@ -703,11 +702,10 @@ exports[`Storyshots Basic/CheckGroupList Default 1`] = `
             </svg>
           </span>
         </span>
+        This is a check box
         <span
           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
-        >
-          From complex components to pages
-        </span>
+        />
       </label>
       <label
         className="MuiFormControlLabel-root"
@@ -751,11 +749,10 @@ exports[`Storyshots Basic/CheckGroupList Default 1`] = `
             </svg>
           </span>
         </span>
+        This is a check box
         <span
           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
-        >
-          From pages to apps
-        </span>
+        />
       </label>
     </div>
     <p
@@ -824,11 +821,10 @@ exports[`Storyshots Basic/CheckGroupList Simple Check List 1`] = `
             </svg>
           </span>
         </span>
+        This is a check box
         <span
           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
-        >
-          Find the granularity of components
-        </span>
+        />
       </label>
       <label
         className="MuiFormControlLabel-root"
@@ -872,11 +868,10 @@ exports[`Storyshots Basic/CheckGroupList Simple Check List 1`] = `
             </svg>
           </span>
         </span>
+        This is a check box
         <span
           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
-        >
-          Decouple the complexity
-        </span>
+        />
       </label>
       <label
         className="MuiFormControlLabel-root"
@@ -920,11 +915,10 @@ exports[`Storyshots Basic/CheckGroupList Simple Check List 1`] = `
             </svg>
           </span>
         </span>
+        This is a check box
         <span
           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
-        >
-          From simple components to complex components
-        </span>
+        />
       </label>
       <label
         className="MuiFormControlLabel-root"
@@ -968,11 +962,10 @@ exports[`Storyshots Basic/CheckGroupList Simple Check List 1`] = `
             </svg>
           </span>
         </span>
+        This is a check box
         <span
           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
-        >
-          From complex components to pages
-        </span>
+        />
       </label>
       <label
         className="MuiFormControlLabel-root"
@@ -1016,11 +1009,10 @@ exports[`Storyshots Basic/CheckGroupList Simple Check List 1`] = `
             </svg>
           </span>
         </span>
+        This is a check box
         <span
           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
-        >
-          From pages to apps
-        </span>
+        />
       </label>
     </div>
     <p
